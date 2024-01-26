@@ -59,10 +59,10 @@ This Node.js application includes a file for retrieving user-specific posts. Uti
 npm run authStart
 ```
 
-**Access User Posts:**
+#### Access User Posts:
 Use a valid access token in the Authorization header to access user-specific posts:
-GET http://localhost:3000/posts
+**GET /posts:**
 
 ---
 #### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit) file for details.
