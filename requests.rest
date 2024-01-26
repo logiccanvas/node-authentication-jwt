@@ -1,0 +1,31 @@
+### REST CLIENT PLUGIN
+## Install Rest Client if you don't want to play with postman and instead want to test API requests / responses within code editor
+
+GET http://localhost:3000/posts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS2FzaGlmIiwiaWF0IjoxNzA2Mjg5MTk2LCJleHAiOjE3MDYyODkyMTZ9.D_KU_wLG-OS9KwiKfKsPwGxoq1rAanlq-ShXxGaeFmY
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS2FzaGlmIiwiaWF0IjoxNzA2Mjg5MTQ3fQ.8A5dEA6SoJJgecGxT_ZEN92Giy0_t5XPZYg5DsoB7jE"
+}
+
+
+###
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS2FzaGlmIiwiaWF0IjoxNzA2Mjg5MTQ3fQ.8A5dEA6SoJJgecGxT_ZEN92Giy0_t5XPZYg5DsoB7jE"
+}
+
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Kashif"
+}
